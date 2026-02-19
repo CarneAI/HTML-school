@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASTER HTML5: LA BIBLIA DEL PROGRAMADOR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="dark">
+
+    <div id="app-splash">
+        <div class="splash-content">
+            <div class="h5-logo">5</div>
+            <h1>HTML5<span>PLATINUM</span></h1>
+            <div class="load-track"><div id="load-bar"></div></div>
+            <p>Cargando ecosistema de alto rendimiento...</p>
+        </div>
+    </div>
+
+    <div class="full-grid">
+        <aside class="side-panel">
+            <header class="side-header">
+                <div class="logo-box">5</div>
+                <h2>CAMPUS VIRTUAL</h2>
+            </header>
+
+            <nav class="course-tree">
+                <details class="m-box" open>
+                    <summary>Módulo 1: Fundamentos y Sintaxis</summary>
+                    <div class="l-group">
+                        <button class="l-item active" data-id="1-1">1.1 Historia y Evolución</button>
+                        <button class="l-item" data-id="1-2">1.2 El Doctype de Nueva Generación</button>
+                        <button class="l-item" data-id="1-3">1.3 El Árbol del DOM</button>
+                        <button class="l-item" data-id="1-4">1.4 Etiquetas de Texto Semántico</button>
+                        <button class="l-item" data-id="1-5">1.5 Jerarquía de Encabezados H1-H6</button>
+                        <button class="l-item" data-id="1-6">1.6 Listas Ordenadas y Desordenadas</button>
+                        <button class="l-item" data-id="1-7">1.7 Enlaces y Anclas de Navegación</button>
+                        <button class="l-item" data-id="1-8">1.8 Atributos Globales (Id, Class)</button>
+                        <button class="l-item" data-id="1-9">1.9 Comentarios y Debugging</button>
+                        <button class="l-item" data-id="1-10">1.10 PROYECTO: Mi Primera Estructura</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 2: Semántica Estructural</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="2-1">2.1 Header y Footer de Aplicación</button>
+                        <button class="l-item" data-id="2-2">2.2 Nav: Menús de Navegación</button>
+                        <button class="l-item" data-id="2-3">2.3 Section vs Article: El Dilema</button>
+                        <button class="l-item" data-id="2-4">2.4 Aside: Contenido Tangencial</button>
+                        <button class="l-item" data-id="2-5">2.5 Details y Summary Interactivos</button>
+                        <button class="l-item" data-id="2-6">2.6 Figure y Figcaption para Media</button>
+                        <button class="l-item" data-id="2-7">2.7 Etiqueta Time para SEO</button>
+                        <button class="l-item" data-id="2-8">2.8 Address y Contacto Semántico</button>
+                        <button class="l-item" data-id="2-9">2.9 Main: El Corazón del Contenido</button>
+                        <button class="l-item" data-id="2-10">2.10 PROYECTO: Layout de Periódico</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 3: Imágenes y Formatos Modernos</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="3-1">3.1 El formato WebP y AVIF</button>
+                        <button class="l-item" data-id="3-2">3.2 Atributo Alt y Accesibilidad</button>
+                        <button class="l-item" data-id="3-3">3.3 Picture y Srcset Responsivo</button>
+                        <button class="l-item" data-id="3-4">3.4 Audio Nativo sin Plugins</button>
+                        <button class="l-item" data-id="3-5">3.5 Video Nativo y Codecs</button>
+                        <button class="l-item" data-id="3-6">3.6 Tracks: Subtítulos VTT</button>
+                        <button class="l-item" data-id="3-7">3.7 Iframes: Sandbox y Seguridad</button>
+                        <button class="l-item" data-id="3-8">3.8 SVG Inline vs Img</button>
+                        <button class="l-item" data-id="3-9">3.9 Lazy Loading Nativo</button>
+                        <button class="l-item" data-id="3-10">3.10 PROYECTO: Galería Inmersiva</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 4: Formularios de Nueva Generación</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="4-1">4.1 Inputs: Email, URL y Tel</button>
+                        <button class="l-item" data-id="4-2">4.2 Validación Nativa (Pattern)</button>
+                        <button class="l-item" data-id="4-3">4.3 Datalists: Autocompletado</button>
+                        <button class="l-item" data-id="4-4">4.4 Selectors de Rango (Sliders)</button>
+                        <button class="l-item" data-id="4-5">4.5 Date y Time Pickers</button>
+                        <button class="l-item" data-id="4-6">4.6 Color Picker Nativo</button>
+                        <button class="l-item" data-id="4-7">4.7 Output: Resultados en Vivo</button>
+                        <button class="l-item" data-id="4-8">4.8 Fieldset y Legend: Grupos</button>
+                        <button class="l-item" data-id="4-9">4.9 Atributos Required y Autofocus</button>
+                        <button class="l-item" data-id="4-10">4.10 PROYECTO: Formulario de Registro</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 5: Datos Estructurados y Tablas</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="5-1">5.1 Table, TR y TD Básico</button>
+                        <button class="l-item" data-id="5-2">5.2 Cabeceras (Thead) y Cuerpo (Tbody)</button>
+                        <button class="l-item" data-id="5-3">5.3 Tfoot: Pie de Tabla y Totales</button>
+                        <button class="l-item" data-id="5-4">5.4 Colspan: Combinar Columnas</button>
+                        <button class="l-item" data-id="5-5">5.5 Rowspan: Combinar Filas</button>
+                        <button class="l-item" data-id="5-6">5.6 Colgroup y Estilos de Columna</button>
+                        <button class="l-item" data-id="5-7">5.7 Accesibilidad en Tablas Complejas</button>
+                        <button class="l-item" data-id="5-8">5.8 Tablas Responsivas con CSS</button>
+                        <button class="l-item" data-id="5-9">5.9 Caption: Títulos de Datos</button>
+                        <button class="l-item" data-id="5-10">5.10 PROYECTO: Dashboard de Precios</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 6: Canvas API y Gráficos 2D</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="6-1">6.1 El Elemento Canvas</button>
+                        <button class="l-item" data-id="6-2">6.2 Contexto de Dibujo 2D</button>
+                        <button class="l-item" data-id="6-3">6.3 Rectángulos y Caminos</button>
+                        <button class="l-item" data-id="6-4">6.4 Arcos y Círculos</button>
+                        <button class="l-item" data-id="6-5">6.5 Curvas de Bezier</button>
+                        <button class="l-item" data-id="6-6">6.6 Estilos: Fill y Stroke</button>
+                        <button class="l-item" data-id="6-7">6.7 Degradados y Patrones</button>
+                        <button class="l-item" data-id="6-8">6.8 Texto en Canvas</button>
+                        <button class="l-item" data-id="6-9">6.9 Transformaciones: Rotate/Scale</button>
+                        <button class="l-item" data-id="6-10">6.10 PROYECTO: Generador de Memes</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 7: Almacenamiento Local</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="7-1">7.1 Introducción al Almacenamiento</button>
+                        <button class="l-item" data-id="7-2">7.2 LocalStorage vs SessionStorage</button>
+                        <button class="l-item" data-id="7-3">7.3 Métodos: SetItem y GetItem</button>
+                        <button class="l-item" data-id="7-4">7.4 Eliminación de Datos</button>
+                        <button class="l-item" data-id="7-5">7.5 Almacenando Objetos JSON</button>
+                        <button class="l-item" data-id="7-6">7.6 El Evento Storage</button>
+                        <button class="l-item" data-id="7-7">7.7 Límites de Capacidad</button>
+                        <button class="l-item" data-id="7-8">7.8 Seguridad y XSS</button>
+                        <button class="l-item" data-id="7-9">7.9 Persistencia de Sesión</button>
+                        <button class="l-item" data-id="7-10">7.10 PROYECTO: Bloc de Notas</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 8: Geolocalización</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="8-1">8.1 API de Geolocation</button>
+                        <button class="l-item" data-id="8-2">8.2 Obtener Posición Actual</button>
+                        <button class="l-item" data-id="8-3">8.3 Vigilancia de Posición</button>
+                        <button class="l-item" data-id="8-4">8.4 Manejo de Errores de GPS</button>
+                        <button class="l-item" data-id="8-5">8.5 Precisión y Opciones</button>
+                        <button class="l-item" data-id="8-6">8.6 Privacidad del Usuario</button>
+                        <button class="l-item" data-id="8-7">8.7 Mapas Estáticos</button>
+                        <button class="l-item" data-id="8-8">8.8 Integración con Leaflet</button>
+                        <button class="l-item" data-id="8-9">8.9 Distancia entre Puntos</button>
+                        <button class="l-item" data-id="8-10">8.10 PROYECTO: Rastreador de Rutas</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 9: Drag and Drop</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="9-1">9.1 Eventos de Arrastre</button>
+                        <button class="l-item" data-id="9-2">9.2 El Objeto DataTransfer</button>
+                        <button class="l-item" data-id="9-3">9.3 Zonas de Soltado (Dropzone)</button>
+                        <button class="l-item" data-id="9-4">9.4 Arrastre de Archivos Locales</button>
+                        <button class="l-item" data-id="9-5">9.5 Efectos Visuales al Arrastrar</button>
+                        <button class="l-item" data-id="9-6">9.6 Ordenar Listas con D&D</button>
+                        <button class="l-item" data-id="9-7">9.7 Arrastre entre Ventanas</button>
+                        <button class="l-item" data-id="9-8">9.8 Prevención de Comportamiento</button>
+                        <button class="l-item" data-id="9-9">9.9 Bibliotecas Externas</button>
+                        <button class="l-item" data-id="9-10">9.10 PROYECTO: Kanban Board</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 10: Web Workers</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="10-1">10.1 Introducción a Multi-threading</button>
+                        <button class="l-item" data-id="10-2">10.2 Creación de un Worker</button>
+                        <button class="l-item" data-id="10-3">10.3 Mensajería PostMessage</button>
+                        <button class="l-item" data-id="10-4">10.4 Terminando Workers</button>
+                        <button class="l-item" data-id="10-5">10.5 Workers Dedicados</button>
+                        <button class="l-item" data-id="10-6">10.6 Workers Compartidos</button>
+                        <button class="l-item" data-id="10-7">10.7 Errores en Hilos Secundarios</button>
+                        <button class="l-item" data-id="10-8">10.8 Limitaciones de Acceso al DOM</button>
+                        <button class="l-item" data-id="10-9">10.9 Carga de Scripts Externos</button>
+                        <button class="l-item" data-id="10-10">10.10 PROYECTO: Procesador de Imagen</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 11: Web Sockets</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="11-1">11.1 Comunicación en Tiempo Real</button>
+                        <button class="l-item" data-id="11-2">11.2 El Protocolo WS://</button>
+                        <button class="l-item" data-id="11-3">11.3 Apertura de Conexión</button>
+                        <button class="l-item" data-id="11-4">11.4 Envío de Datos JSON</button>
+                        <button class="l-item" data-id="11-5">11.5 Recepción de Mensajes</button>
+                        <button class="l-item" data-id="11-6">11.6 Manejo de Desconexiones</button>
+                        <button class="l-item" data-id="11-7">11.7 Heartbeats y Keep-Alive</button>
+                        <button class="l-item" data-id="11-8">11.8 Seguridad con WSS://</button>
+                        <button class="l-item" data-id="11-9">11.9 Alternativas a WebSockets</button>
+                        <button class="l-item" data-id="11-10">11.10 PROYECTO: Chat Global</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 12: Offline con Service Workers</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="12-1">12.1 Ciclo de Vida del SW</button>
+                        <button class="l-item" data-id="12-2">12.2 Registro y Activación</button>
+                        <button class="l-item" data-id="12-3">12.3 Estrategias de Caché</button>
+                        <button class="l-item" data-id="12-4">12.4 Fetch Interception</button>
+                        <button class="l-item" data-id="12-5">12.5 Actualización del SW</button>
+                        <button class="l-item" data-id="12-6">12.6 Notificaciones Push</button>
+                        <button class="l-item" data-id="12-7">12.7 Background Sync</button>
+                        <button class="l-item" data-id="12-8">12.8 Manifest.json para PWA</button>
+                        <button class="l-item" data-id="12-9">12.9 Instalación en Desktop/Móvil</button>
+                        <button class="l-item" data-id="12-10">12.10 PROYECTO: App Offline</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 13: Web Components</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="13-1">13.1 Custom Elements</button>
+                        <button class="l-item" data-id="13-2">13.2 Shadow DOM Explicado</button>
+                        <button class="l-item" data-id="13-3">13.3 HTML Templates</button>
+                        <button class="l-item" data-id="13-4">13.4 Slots y Composición</button>
+                        <button class="l-item" data-id="13-5">13.5 Estilos Encapsulados</button>
+                        <button class="l-item" data-id="13-6">13.6 Observación de Atributos</button>
+                        <button class="l-item" data-id="13-7">13.7 Ciclos de Vida (Connected)</button>
+                        <button class="l-item" data-id="13-8">13.8 Extensión de Elementos Natos</button>
+                        <button class="l-item" data-id="13-9">13.9 Distribución de Componentes</button>
+                        <button class="l-item" data-id="13-10">13.10 PROYECTO: Librería de UI</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 14: Microdatos y SEO</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="14-1">14.1 Introducción a Schema.org</button>
+                        <button class="l-item" data-id="14-2">14.2 Atributos Itemscope e Itemtype</button>
+                        <button class="l-item" data-id="14-3">14.3 Definición de Propiedades</button>
+                        <button class="l-item" data-id="14-4">14.4 JSON-LD vs Microdatos</button>
+                        <button class="l-item" data-id="14-5">14.5 Rich Snippets en Google</button>
+                        <button class="l-item" data-id="14-6">14.6 Metadatos de Redes Sociales</button>
+                        <button class="l-item" data-id="14-7">14.7 Open Graph Protocol</button>
+                        <button class="l-item" data-id="14-8">14.8 Twitter Cards</button>
+                        <button class="l-item" data-id="14-9">14.9 Validación con Herramientas</button>
+                        <button class="l-item" data-id="14-10">14.10 PROYECTO: Página Optimizada</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 15: History API</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="15-1">15.1 Navegación sin Recarga</button>
+                        <button class="l-item" data-id="15-2">15.2 PushState y ReplaceState</button>
+                        <button class="l-item" data-id="15-3">15.3 El Evento PopState</button>
+                        <button class="l-item" data-id="15-4">15.4 Manejo del Estado del Historial</button>
+                        <button class="l-item" data-id="15-5">15.5 Creando un Enrutador JS</button>
+                        <button class="l-item" data-id="15-6">15.6 Deep Linking</button>
+                        <button class="l-item" data-id="15-7">15.7 Títulos Dinámicos</button>
+                        <button class="l-item" data-id="15-8">15.8 UX en Single Page Apps</button>
+                        <button class="l-item" data-id="15-9">15.9 Seguridad en URLs</button>
+                        <button class="l-item" data-id="15-10">15.10 PROYECTO: SPA Portfolio</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 16: IndexedDB Avanzado</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="16-1">16.1 Base de Datos NoSQL Local</button>
+                        <button class="l-item" data-id="16-2">16.2 Apertura y Versiones</button>
+                        <button class="l-item" data-id="16-3">16.3 Object Stores e Índices</button>
+                        <button class="l-item" data-id="16-4">16.4 Transacciones (ReadOnly/RW)</button>
+                        <button class="l-item" data-id="16-5">16.5 Cursor y Rangos</button>
+                        <button class="l-item" data-id="16-6">16.6 Búsqueda Avanzada</button>
+                        <button class="l-item" data-id="16-7">16.7 Promisificación de IDB</button>
+                        <button class="l-item" data-id="16-8">16.8 Migraciones de Datos</button>
+                        <button class="l-item" data-id="16-9">16.9 Librería Dexie.js</button>
+                        <button class="l-item" data-id="16-10">16.10 PROYECTO: Gestor de Inventario</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 17: Web Audio API</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="17-1">17.1 El Grafo de Audio</button>
+                        <button class="l-item" data-id="17-2">17.2 AudioContext y Nodos</button>
+                        <button class="l-item" data-id="17-3">17.3 Osciladores y Ondas</button>
+                        <button class="l-item" data-id="17-4">17.4 Control de Ganancia (Volumen)</button>
+                        <button class="l-item" data-id="17-5">17.5 Filtros de Frecuencia</button>
+                        <button class="l-item" data-id="17-6">17.6 Analizadores Visuales</button>
+                        <button class="l-item" data-id="17-7">17.7 Espacialización 3D</button>
+                        <button class="l-item" data-id="17-8">17.8 Carga de Buffers Externos</button>
+                        <button class="l-item" data-id="17-9">17.9 Síntesis de Sonido</button>
+                        <button class="l-item" data-id="17-10">17.10 PROYECTO: Sintetizador Web</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 18: File System Access</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="18-1">18.1 Leyendo Archivos del Disco</button>
+                        <button class="l-item" data-id="18-2">18.2 Escribiendo Archivos Locales</button>
+                        <button class="l-item" data-id="18-3">18.3 Manejadores de Directorio</button>
+                        <button class="l-item" data-id="18-4">18.4 Permisos de Usuario</button>
+                        <button class="l-item" data-id="18-5">18.5 Flujos de Escritura (Streams)</button>
+                        <button class="l-item" data-id="18-6">18.6 Editando Archivos Existentes</button>
+                        <button class="l-item" data-id="18-7">18.7 Serialización de Handles</button>
+                        <button class="l-item" data-id="18-8">18.8 Almacenamiento Privado (OPFS)</button>
+                        <button class="l-item" data-id="18-9">18.9 Limitaciones del Navegador</button>
+                        <button class="l-item" data-id="18-10">18.10 PROYECTO: Editor de Código Local</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 19: Web Bluetooth y USB</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="19-1">19.1 Conectando Hardware</button>
+                        <button class="l-item" data-id="19-2">19.2 GATT y Perfiles</button>
+                        <button class="l-item" data-id="19-3">19.3 Escaneando Dispositivos</button>
+                        <button class="l-item" data-id="19-4">19.4 Lectura de Características</button>
+                        <button class="l-item" data-id="19-5">19.5 Escritura de Comandos</button>
+                        <button class="l-item" data-id="19-6">19.7 Notificaciones del Sensor</button>
+                        <button class="l-item" data-id="19-7">19.8 Web Serial API</button>
+                        <button class="l-item" data-id="19-8">19.9 Baud Rates y Buffers</button>
+                        <button class="l-item" data-id="19-9">19.9 Depuración de Hardware</button>
+                        <button class="l-item" data-id="19-10">19.10 PROYECTO: Monitor Cardíaco Web</button>
+                    </div>
+                </details>
+
+                <details class="m-box">
+                    <summary>Módulo 20: El Futuro y Despliegue</summary>
+                    <div class="l-group">
+                        <button class="l-item" data-id="20-1">20.1 WebAssembly (WASM)</button>
+                        <button class="l-item" data-id="20-2">20.2 WebGPU: Gráficos del Futuro</button>
+                        <button class="l-item" data-id="20-3">20.3 HTTP/3 y Carga Veloz</button>
+                        <button class="l-item" data-id="20-4">20.4 Seguridad en 2026</button>
+                        <button class="l-item" data-id="20-5">20.5 Optimización de Rendimiento</button>
+                        <button class="l-item" data-id="20-6">20.6 Lighthouse y Métricas</button>
+                        <button class="l-item" data-id="20-7">20.7 Integración Continua (CI/CD)</button>
+                        <button class="l-item" data-id="20-8">20.8 Hosting Moderno (Vercel/Netlify)</button>
+                        <button class="l-item" data-id="20-9">20.9 Certificaciones Profesionales</button>
+                        <button class="l-item" data-id="20-10">20.10 PROYECTO FINAL DE CARRERA</button>
+                    </div>
+                </details>
+            </nav>
+        </aside>
+
+        <main class="viewer">
+            <header class="view-header">
+                <div class="title-meta">
+                    <span id="label-mod">MÓDULO 1</span>
+                    <h1 id="label-les">Historia y Evolución</h1>
+                </div>
+                <div class="actions">
+                    <button id="theme-btn">INTERFAZ: DARK</button>
+                    <div class="prog-circle">
+                        <svg width="40" height="40"><circle cx="20" cy="20" r="18"></circle></svg>
+                        <span id="perc">0%</span>
+                    </div>
+                </div>
+            </header>
+
+            <section class="book-shell">
+                <article class="page active" id="p1-1">
+                    <div class="page-wrap">
+                        <header class="page-header">
+                            <h1>1.1 La Revolución de HTML5</h1>
+                            <p>El nacimiento de la web moderna y el fin de los plugins propietarios.</p>
+                        </header>
+                        <div class="page-content">
+                            <p>HTML5 no es simplemente una actualización del lenguaje de marcado; es una plataforma tecnológica que redefine cómo interactuamos con el software en el navegador...</p>
+                            <p>Durante años, la web dependió de Flash y Silverlight para multimedia. Con la llegada de HTML5, el navegador se volvió soberano...</p>
+                            <p>El impacto en la industria fue masivo, permitiendo el auge de las Single Page Applications (SPA) y el diseño responsivo...</p>
+                            <h3>Hitos principales de la cronología web:</h3>
+                            <ul>
+                                <li><strong>2004:</strong> El grupo WHATWG comienza a trabajar en "Web Applications 1.0" tras la frustración con el avance lento de XHTML.</li>
+                                <li><strong>2008:</strong> El W3C publica el primer borrador público de HTML5, captando la atención mundial de desarrolladores.</li>
+                                <li><strong>2010:</strong> Steve Jobs publica "Thoughts on Flash", impulsando la adopción masiva de HTML5 en dispositivos móviles.</li>
+                                <li><strong>2014:</strong> HTML5 se convierte en "Recomendación Oficial", marcando el estándar estable que usamos hoy.</li>
+                            </ul>
+                            <div class="info-note">
+                                <strong>Nota Técnica:</strong> La compatibilidad hacia atrás es un principio fundamental. Cualquier navegador moderno puede renderizar código de hace 20 años sin colapsar.
+                            </div>
+                            <p>En este curso, exploraremos cada rincón de esta especificación, desde los elementos semánticos básicos hasta las APIs de hardware más complejas disponibles en 2026...</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="page" id="p1-2">
+                    <div class="page-wrap">
+                        <header class="page-header">
+                            <h1>1.2 El Doctype de Nueva Generación</h1>
+                        </header>
+                        <div class="page-content">
+                            <p>El Doctype es la primera línea de cualquier documento HTML profesional...</p>
+                            <p>Históricamente, los doctypes eran cadenas de texto crípticas y kilométricas...</p>
+                            <p>HTML5 simplificó esto a su mínima expresión: <code>&lt;!DOCTYPE html&gt;</code>.</p>
+                        </div>
+                    </div>
+                </article>
+                </section>
+
+            <section class="ide-frame">
+                <div class="ide-nav">
+                    <div class="ide-tabs"><div class="tab active">index.html</div></div>
+                    <div class="ide-btns">
+                        <button id="run-code" class="btn-orange">EJECUTAR</button>
+                        <button id="clear-code">LIMPIAR</button>
+                    </div>
+                </div>
+                <div class="ide-core">
+                    <div class="edit-side">
+                        <div class="gutter" id="gutter">1</div>
+                        <textarea id="code-in" spellcheck="false" placeholder="Escribe tu código aquí..."></textarea>
+                    </div>
+                    <div class="view-side"><iframe id="live-out"></iframe></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
